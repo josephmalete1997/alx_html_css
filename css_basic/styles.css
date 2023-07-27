@@ -21,11 +21,16 @@ article {
     color: white;
 }
 
+.alx-img {
+    margin-left: -15px;
+}
+
 article h1,
 h2,
 h3,
 p {
     padding-left: 20px;
+    font-family: 'Josefin Sans', serif;
 }
 
 aside {
@@ -68,4 +73,9 @@ ul li a {
     font-size: 36px;
     flex: 10;
     margin-top: -10px;
+}
+
+.logo a {
+    color: rgb(33, 79, 111);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
