@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    margin: 0%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background: rgb(33, 79, 111);
+    color: white;
+}
+
+article h1,
+h2,
+h3,
+p {
+    padding-left: 20px;
+}
+
+aside {
+    flex: 1;
+    background: rgb(232, 232, 232);
+    overflow-y: auto;
+}
+
+table {
+    margin-left: 20px;
+    border: 1px solid white;
+    padding-bottom: 10px;
+}
+
+td {
+    border-top: 1px solid white;
+}
+
+header {
+    background: rgb(239, 239, 239);
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    margin: 10px;
+    list-style: none;
+    flex: 1;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    flex: 10;
+    margin-top: -10px;
+}
